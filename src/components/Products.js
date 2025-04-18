@@ -1,6 +1,6 @@
 import { useContext } from 'react';
-import productsData from '../productsData';
-import { CartContext } from '../../store';
+import productsData from '../assets/productsData';
+import { CartContext } from '../store';
 
 export default function Products() {
   const [state, dispatch] = useContext(CartContext);

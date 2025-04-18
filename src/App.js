@@ -1,7 +1,7 @@
 import { useReducer } from 'react';
-import Cart from './assets/components/Cart';
-import Navbar from './assets/components/Navbar';
-import Products from './assets/components/Products';
+import Cart from './components/Cart';
+import Navbar from './components/Navbar';
+import Products from './components/Products';
 import { CartContext } from './store';
 
 function App() {
